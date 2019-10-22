@@ -35,7 +35,7 @@ variable "application_instances" {
 
 # Configure the IBM Cloud Provider
 provider "ibm" {
-  bluemix_api_key = "${var.ibm_cloud_apikey}"
+  ibmcloud_api_key = "${var.ibm_cloud_apikey}"
 }
 
 data "ibm_space" "myspace" {
